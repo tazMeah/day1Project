@@ -70,3 +70,23 @@ button:hover {
     background: #A6AAAD;
     //border: 2px solid #A6AAAD;
 }
+
+@media screen and (max-width: 1088px) {
+    section {
+      flex-direction: column !important;
+      justify-content: center !important;
+    }
+
+    figure {
+        display: flex;
+    }
+
+    button {
+        width: 100px;
+    }
+
+    #column3 {
+        align-items: flex-end;
+        padding: 0 40px;
+    }
+  }
