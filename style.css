@@ -2,17 +2,17 @@ body {
     margin: 0;
     Font-Family: 'Lora', Serif;
     Font-Size: 14px;
-    background: rgba(213, 181, 165, 0.39);
+    background: rgba(204, 190, 190, 0.418);
     
 }
 
 header div {
-    height: 100px;
+    height: 80px;
     width: 100%;
     background: #C5403D;
     display: flex;
     justify-content: space-between;
-    /*padding: 0 25px;*/
+    border-bottom: 1px solid #A6AAAD;
 
 }
 
@@ -59,6 +59,10 @@ section {
     
 }
 
+figure img {
+    box-shadow: 0 0 5px black;
+}
+
 #column2, #column3 {
     flex-direction: column;
 }
@@ -69,7 +73,8 @@ section {
 blockquote, figcaption {
     display: block;
     background: white;
-    border: 5px solid #997A65;
+    /*border: 2px solid #997A65;*/
+    border: 2px solid black;
     padding: 5px;
 }
 
