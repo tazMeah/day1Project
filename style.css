@@ -1,0 +1,33 @@
+header div {
+    height: 100px;
+    width: 100%;
+    background: red;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav {
+    background: yellow;
+}
+
+nav li {
+    display: inline;
+}
+
+section {
+    display: flex;
+}
+
+#column1, #column2, #column3 {
+    display: flex;
+    
+}
+
+#column2, #column3 {
+    flex-direction: column;
+}
+
+blockquote {
+    display: block;
+}
