@@ -1,7 +1,9 @@
 body {
+    margin: 0;
     Font-Family: 'Lora', Serif;
     Font-Size: 14px;
-    background: #D5B5A5;
+    background: rgba(213, 181, 165, 0.39);
+    
 }
 
 header div {
@@ -10,13 +12,23 @@ header div {
     background: #C5403D;
     display: flex;
     justify-content: space-between;
-    //padding: 0 25px;
+    /*padding: 0 25px;*/
 
+}
+
+header nav {
+    padding-right: 35px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    padding: 0;
 }
 
 header h1 {
     Font-Family: 'Roboto', Sans-Serif;
-    Font-Size: 48px;
+    Font-Size: 36px;
     padding-left: 35px;
 }
 
