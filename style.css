@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0;
     Font-Family: 'Lora', Serif;
@@ -52,32 +54,9 @@ nav li {
     Font-Size: 14px;
 }
 
-
-
-section {
-    display: flex;
-}
-
-#column1, #column2, #column3 {
-    display: flex;
-    
-}
-
-figure img {
-    box-shadow: 0 0 5px black;
-}
-
-#column2, #column3 {
-    flex-direction: column;
-}
-
-#column3 {
-    padding-top: 14px;
-}
-blockquote, figcaption {
+blockquote {
     display: block;
     background: white;
-    /*border: 2px solid #997A65;*/
     border: 2px solid black;
     padding: 5px;
 }
@@ -92,28 +71,74 @@ button:hover {
     //border: 2px solid #A6AAAD;
 }
 
-@media screen and (max-width: 1205px) {
+figure img {
+    box-shadow: 0 0 5px black;
+}
+
+#column3 {
+    padding-top: 14px;
+}
+/*responsive items*/
+section {
+    display: flex;
+}
+
+#column1, #column2, #column3 {
+    display: flex;
+    
+}
+
+#column2, #column3 {
+    flex-direction: column;
+}
+
+#column3 {
+    align-items: flex-end;
+    padding: 0 40px;
+}
+
+figure {
+       
+    height: 450px;
+    width: 600px;
+    position: relative;
+    background: url("https://images.unsplash.com/photo-1498409785966-ab341407de6e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8a87674644cd4f622df5c57facbccf1e&auto=format&fit=crop&w=700&q=60");
+}
+
+figcaption {
+    background: white;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    border: 2px solid black;
+    
+}
+  
+
+button {
+    width: 100px;
+}
+
+
+@media screen and (max-width: 1189px) {
+    
     section {
-      flex-direction: column !important;
-      justify-content: center !important;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+        max-width: 680px;
     }
 
-    figure {
-        display: flex;
+    
     }
 
-    button {
-        width: 100px;
-    }
 
-    #column3 {
-        align-items: flex-end;
-        padding: 0 40px;
-    }
-  }
-
-  @media screen and (max-width: 915px) {
-      figure {
-          flex-direction: column;
-      }
-  }
+    @media screen and (max-width: 610px) {
+    
+        figure {
+            max-width: 500px;
+        }
+    
+        
+        }
+    
