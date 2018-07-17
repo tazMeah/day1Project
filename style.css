@@ -26,10 +26,14 @@ nav ul {
     padding: 0;
 }
 
-header h1 {
-    Font-Family: 'Roboto', Sans-Serif;
+h1 {
+    Font-Family: "Roboto", sans-serif;
     Font-Size: 36px;
     padding-left: 35px;
+}
+
+h2, h3 {
+    font-family: "Roboto", sans-serif;
 }
 
 nav a{
@@ -88,7 +92,7 @@ button:hover {
     //border: 2px solid #A6AAAD;
 }
 
-@media screen and (max-width: 1088px) {
+@media screen and (max-width: 1205px) {
     section {
       flex-direction: column !important;
       justify-content: center !important;
@@ -106,4 +110,10 @@ button:hover {
         align-items: flex-end;
         padding: 0 40px;
     }
+  }
+
+  @media screen and (max-width: 915px) {
+      figure {
+          flex-direction: column;
+      }
   }
