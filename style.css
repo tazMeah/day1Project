@@ -2,8 +2,8 @@
 
 body {
     margin: 0;
-    Font-Family: 'Lora', Serif;
-    Font-Size: 14px;
+    font-family: "Lora", Serif;
+    font-size: 14px;
     background: rgba(204, 190, 190, 0.418);
     
 }
@@ -29,8 +29,8 @@ nav ul {
 }
 
 h1 {
-    Font-Family: "Roboto", sans-serif;
-    Font-Size: 36px;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
     padding-left: 35px;
 }
 
@@ -68,7 +68,7 @@ blockquote {
 button:hover {
     cursor: pointer;
     background: #A6AAAD;
-    //border: 2px solid #A6AAAD;
+    /*border: 2px solid #A6AAAD;*/
 }
 
 figure img {
@@ -130,15 +130,15 @@ button {
     }
 
     
-    }
+}
 
 
-    @media screen and (max-width: 610px) {
+@media screen and (max-width: 610px) {
     
         figure {
             max-width: 500px;
         }
     
         
-        }
+    }
     
